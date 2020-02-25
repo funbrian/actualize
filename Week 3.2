@@ -1,0 +1,10 @@
+puts "Please enter your favorite number:"
+number = gets.chomp
+if number.to_i < 50
+    puts "I see prosperity in your future."
+end
+if number.to_i.between?(50, 100)
+    puts "I see hard times in your future"
+else number.to_i > 100
+    puts "I see greatness in your future"
+end
